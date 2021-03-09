@@ -16,3 +16,5 @@ Identity Table Queries - IdentityTableQueries.sql
 Queries to interrogate the structure of the tables in the database to see how identity columns are being used. Examples are looking for tables with an identity key as the only key, in the primary key with another column, tables without an identity key, and several other scenarios.
  	
 Server process list - Dynamic management view query of the current processes on the server
+
+GraphMetadata.sql - Queries to get metadata of graph objects. Currently includes queries to help identify nodes and edges that can be used with each other.
